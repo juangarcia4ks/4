@@ -16,8 +16,8 @@
 <body>
 	<?php
 		session_start();
-		if($_SESSION["s_usuario"] === null"){
-		    header("Location: https://csnlogin.4ks.global/login ");
+		if($_SESSION["s_usuario"] === null){
+		    header("Location: https://csnlogin.4ks.global/login.php");
 		}
 	?>
 	<h1>Hola Teo</h1>
