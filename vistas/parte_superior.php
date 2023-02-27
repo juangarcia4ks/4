@@ -156,19 +156,19 @@ if($_SESSION["s_usuario"] === null){
 
             <h6 class="collapse-header">Aplicaciones Disponibles:</h6>
 
-            <a class="collapse-item" href="https://pdv-csn.apps-crc.testing/">App demo1</a>
+            <a class="collapse-item" href="https://app1-csn.apps.oc.4ks.global/">App demo1</a>
 
-            <a class="collapse-item" href="http://dotnet-sample-csn.apps-crc.testing/">App demo2</a>
+            <a class="collapse-item" href="http://app2-csn.apps.oc.4ks.global/">App demo2</a>
 
-            <a class="collapse-item" href="http://dotnet-basic-csn.apps-crc.testing/">App demo3</a>
+            <a class="collapse-item" href="http://app3-csn.apps.oc.4ks.global/">App demo3</a>
 
-            <a class="collapse-item" href="http://nodejs-basic-csn.apps-crc.testing/">App demo4</a>
+            <a class="collapse-item" href="http://app4-csn.apps.oc.4ks.global/">App demo4</a>
 
-            <a class="collapse-item" href="http://go-basic-csn.apps-crc.testing/">App demo5</a>
+            <a class="collapse-item" href="http://app5-csn.apps.oc.4ks.global/">App demo5</a>
 
-            <a class="collapse-item" href="http://httpd-sample-csn.apps-crc.testing/">App demo6</a>
+            <a class="collapse-item" href="http://app6-csn.apps.oc.4ks.global/">App demo6</a>
 
-            <a class="collapse-item" href="http://nginx-sample-csn.apps-crc.testing/">App demo7</a>
+            <a class="collapse-item" href="http://app7-csn.apps.oc.4ks.global/">App demo7</a>
 
             
 
