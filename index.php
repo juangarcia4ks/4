@@ -1,3 +1,9 @@
+<?php
+	session_start();
+	if($_SESSION["s_usuario"] === null){
+	    header("Location: https://csnlogin.4ks.online/index.php");
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,13 +20,10 @@
 	</style>
 </head>
 <body>
-	<?php
-		session_start();
-		if($_SESSION["s_usuario"] === demo){
-		    header("Location: https://csnlogin.4ks.online/login.php");
-		}
-	?>
+
 	<h1>Hola Teo</h1>
 	<p>Este es un ejemplo de PHP creado con ChatGPT.</p>
+        <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION["s_usuario"];?></span>
+
 </body>
 </html>
