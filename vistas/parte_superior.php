@@ -1,16 +1,12 @@
 <?php
 
+
+
 session_start();
 
-
-
-if($_SESSION["s_usuario"] === null){
-
-    header("Location: ../index.php");
-
-}
-
-
+//check session variable exist  
+$sessionID= (isset($_SESSION['s_usuario'])) ? $_SESSION['s_usuario'] : 'Error';
+echo $sessionID;
 
 ?>
 
