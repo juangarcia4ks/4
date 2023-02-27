@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo de PHP con ChatGPT</title>
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			font-weight: bold;
+			font-size: 24px;
+			text-align: center;
+			padding-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<?php
+		session_start();
+		if($_SESSION["s_usuario"] === null){
+		    header("Location: / ");
+		}
+	?>
+	<h1>Hola Teo</h1>
+	<p>Este es un ejemplo de PHP creado con ChatGPT.</p>
+</body>
+</html>
